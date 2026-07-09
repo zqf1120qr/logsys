@@ -1,0 +1,4 @@
+[2026-07-08 19:15:01] [ERROR] [Trace-1102] [Security-Auth] - redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool, Connection timed out.
+[2026-07-08 19:15:02] [ERROR] [Trace-1102] [Security-Auth] - Authentication failed due to internal cache error.
+[2026-07-08 19:15:02] [ERROR] [Trace-1102] [UAA-Router] - FeignClientException: Security-Auth responded with status 500 (Internal Server Error).
+[2026-07-08 19:15:03] [ERROR] [Trace-1102] [API-Gateway] - HttpServerErrorException: 502 Bad Gateway. Upstream service UAA-Router failed to respond.
